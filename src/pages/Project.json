@@ -6,7 +6,20 @@
         "live":"https://just-another-texteditor.herokuapp.com/",
         "screendhot":"/images/Text-Editor-screenshot.png"
     },
+    
     {
+        "app" :"Weather App",
+        "description":"Simple weather app",
+        "github":"https://github.com/Ryguy720/Weather-App",
+        "live":"https://ryguy720.github.io/Weather-App/",
+        "screendhot":"/images/WeatherappSS.png"
 
+    },
+    {
+        "app" :"Text Editor",
+        "description":"Simple code editor for snippets",
+        "github":"https://github.com/Ryguy720/Text-Editor",
+        "live":"https://just-another-texteditor.herokuapp.com/",
+        "screendhot":"/images/Text-Editor-screenshot.png"
     }
 ]
