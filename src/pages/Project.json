@@ -4,7 +4,7 @@
         "description":"Simple code editor for snippets",
         "github":"https://github.com/Ryguy720/Text-Editor",
         "live":"https://just-another-texteditor.herokuapp.com/",
-        "screendhot":"/images/Text-Editor-screenshot.png"
+        "screenshot":"/images/Text-Editor-screenshot.png"
     },
     
     {
@@ -12,7 +12,7 @@
         "description":"Simple weather app",
         "github":"https://github.com/Ryguy720/Weather-App",
         "live":"https://ryguy720.github.io/Weather-App/",
-        "screendhot":"/images/WeatherappSS.png"
+        "screenshot":"/images/WeatherappSS.png"
 
     },
     {
@@ -20,6 +20,6 @@
         "description":"Simple code editor for snippets",
         "github":"https://github.com/Ryguy720/Text-Editor",
         "live":"https://just-another-texteditor.herokuapp.com/",
-        "screendhot":"/images/Text-Editor-screenshot.png"
+        "screenshot":"/images/Text-Editor-screenshot.png"
     }
 ]

@@ -2,7 +2,7 @@ import React from "react";
 import Figure from 'react-bootstrap/Figure'
 
 const Aboutme = () => {
-    return (
+    return (<div id="aboutme" className = "content">
         <Figure>
             <Figure.Image
                 width={591}
@@ -18,7 +18,7 @@ const Aboutme = () => {
                 Thank you for visiting my page and stay tuned for more updates. 
             </Figure.Caption>
         </Figure>
-    )
+   </div> )
 }
 
 export default Aboutme;

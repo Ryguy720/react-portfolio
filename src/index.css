@@ -14,4 +14,5 @@ code {
 
 .color-nav{
   background-color: seagreen;
+  position: fixed;
 }
