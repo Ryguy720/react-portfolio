@@ -1,10 +1,12 @@
 import React from "react";
 import Figure from 'react-bootstrap/Figure'
+import { Container } from "react-bootstrap";
 
 const Aboutme = () => {
-    return (<div id="aboutme" className = "content">
+    return (<div id="aboutme">
+        <Container>
         <Figure>
-            <Figure.Image
+            <Figure.Image className="m-3 p-3"
                 width={591}
                 height={620}
                 alt="171x180"
@@ -18,6 +20,7 @@ const Aboutme = () => {
                 Thank you for visiting my page and stay tuned for more updates. 
             </Figure.Caption>
         </Figure>
+        </Container>
    </div> )
 }
 
