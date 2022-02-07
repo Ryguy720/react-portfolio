@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import Aboutme from '../pages/Aboutme';
-import Portfolio from '../pages/Portfolio';
+import {Link} from "react-router-dom";
+
 
 
 
@@ -10,12 +10,12 @@ const Navigation = () => {
     <div>
     <Navbar className="color-nav text-center" variant="dark">
       <Container className="text center">
-        <Navbar.Brand href="#home">Ryan McCulloch</Navbar.Brand>
+        <Navbar.Brand className = "name" href="/">Ryan McCulloch</Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#aboutme">About Me</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+        <Link className = "text-white p-2 m-2" to="/home">Home</Link>
+          <Link className = "text-white p-2 m-2"to="/aboutme">About Me</Link>
+          <Link className = "text-white p-2 m-2" to="/contact">Contact</Link>
+          <Link className = "text-white p-2 m-2" to="/portfolio">Portfolio</Link>
         </Nav>
       </Container>
 

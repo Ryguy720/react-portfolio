@@ -13,3 +13,21 @@
   width:100%;
   text-align: center !important;
 }
+
+.aboutme{
+  font-family: 'Archivo', sans-serif;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.name{
+  font-family: 'Caveat', cursive;
+  font-weight: 200;
+}
+
+.contact{
+  font-family: 'Righteous', cursive
+}
