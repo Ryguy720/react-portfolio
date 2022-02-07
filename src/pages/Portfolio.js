@@ -1,13 +1,16 @@
 import React,{useEffect, useState} from "react";
 import jsonlist from "./Project.json";
 import Project from "../components/Project.js";
+import { Container } from "react-bootstrap";
 
 function Portfolio() {
     const [projectlist,setProjectList] = useState([])
     useEffect(()=>{
         setProjectList(jsonlist)
     },[])
-    return (<main class="d-flex align-content-between flex-wrap justi" id="portfolio">
+    return (
+        <Container>
+    <main class="d-flex align-content-between flex-wrap justi m-5 p-5" id="portfolio">
         {projectlist.map((app,key) => {
             return <Project app ={app.app}
             description ={app.description}
@@ -17,6 +20,7 @@ function Portfolio() {
             key={key} />
         })}
        </main>
+       </Container>
     )
 }
 

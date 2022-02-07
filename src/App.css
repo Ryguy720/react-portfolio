@@ -12,6 +12,7 @@
   z-index: 1;
   width:100%;
   text-align: center !important;
+  font-weight: 900;
 }
 
 .aboutme{
@@ -25,9 +26,12 @@
 
 .name{
   font-family: 'Caveat', cursive;
-  font-weight: 200;
+  font-weight: 1000;
+  margin-left: 5%;
+
 }
 
 .contact{
   font-family: 'Righteous', cursive
 }
+
