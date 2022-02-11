@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 
 const Contact = () => {
-    return (<main className="home-container mt-5">
+    return (<main className="home-container">
         <h1>
         <Container>
         {/* <Button><a href="mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!">Second Example</a></Button> */}

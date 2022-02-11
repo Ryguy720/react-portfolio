@@ -1,0 +1,16 @@
+.aboutme{
+    font-family: 'Archivo', sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: 700;
+    justify-content: center;
+    border: 20px solid grey; 
+    
+    
+  
+  }
+  
+  .lineargradiant{
+      justify-content: center;
+      margin-left: 10%;
+  }

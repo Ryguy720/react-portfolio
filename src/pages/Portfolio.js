@@ -10,7 +10,7 @@ function Portfolio() {
     },[])
     return (
         <Container>
-    <main className="d-flex align-content-between flex-wrap  m-5 p-5" id="portfolio">
+    <div className="d-flex align-content-between flex-wrap " id="portfolio">
         {projectlist.map((app,key) => {
             return <Project app ={app.app}
             description ={app.description}
@@ -19,7 +19,7 @@ function Portfolio() {
             screenshot={app.screenshot}
             key={key} />
         })}
-       </main>
+       </div>
        </Container>
     )
 }

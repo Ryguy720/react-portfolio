@@ -1,46 +1,36 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel'
+import Figure from 'react-bootstrap/Figure';
+import { Container } from "react-bootstrap";
 
 const Home = () => {
-  return (<main className="home-container">
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="home-img"
-          src="/images/MeNDom.png"
-          alt="Wedding"
-        />
-        <Carousel.Caption>
-          <h3>This is my wife Dom</h3>
-          
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="home-img"
-          src="/images/Telluride.jpg"
-          alt="telluride"
-        />
+  return (<div className="home-container" id="aboutme">
+  <Container className="lineargradiant"         
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center"
+  }}>
+      <Figure style={{
+          marginTop: "25%"
+      }}>
+          <Figure.Image
+              width={591}
+              height={620}
+              alt="171x180"
+              src="/images/Telluride.jpg"
+          />
+      </Figure>
+      <h1 className="aboutme  text-white p-2 m-2" >
+          Hi, welcome to my first React app. My name is Ryan and I've been lerning how to code for almost six months.
+          I've wanted to change carreers for a while and decided to give coding a shot. During my time in the DU coding bootcamp
+          I've learned about many different technologies including HTML5, CSS3, JavaScript, jQuery, Node.js, PHP, Laravel, Express.js, React.
+          Learning how to code has been a challenging yet rewarding journey and I'm exited to see where I go next.
+          Thank you for visiting my page and stay tuned for more updates.
+      </h1>
 
-        <Carousel.Caption>
-          <h3>This is us at the Blue Lakes!</h3>
-      
-        </Carousel.Caption>
-      </Carousel.Item>
-      {/* <Carousel.Item>
-        <img
-          className="home-img"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide" */}
-        {/* /> */}
-
-        {/* <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption> */}
-      {/* </Carousel.Item> */}
-    </Carousel>
-    </main>)
+  </Container>
+</div>)
 };
 
 export default Home;
