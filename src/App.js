@@ -2,8 +2,10 @@ import './App.css';
 // import Navigation from './components/Navigation';
 import Aboutme from './pages/Aboutme';
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import React from "react";
 import Navigation from './components/Navigation';
+import Home from './pages/Home';
 import { Navbar, Container, Nav } from "react-bootstrap";
 import {
   BrowserRouter as Router,
@@ -13,15 +15,19 @@ import {
 } from "react-router-dom";
 
 
+
 function App() {
   return (
-    <div className= "App" >
-    
-    <Router>
-       <Navigation />
+    <div className="App" >
+
+      <Router>
+        <Navigation />
         <Switch>
-        <Route exact path="/">
-            {Aboutme}
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/home">
+            <Home />
           </Route>
           <Route path="/aboutme">
             <Aboutme />
@@ -30,11 +36,12 @@ function App() {
             <Portfolio />
           </Route>
           <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
-     
-    </Router> 
-    </div> );
+
+      </Router>
+    </div>);
 
 }
 

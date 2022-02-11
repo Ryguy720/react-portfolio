@@ -2,7 +2,8 @@
   height: 90vh;
   width: 90vw;
   margin-left: 5%;
-   padding-left: 5%;
+  padding-left: 5%;
+   
 }
 
 .color-nav{
@@ -20,7 +21,9 @@
   margin-left: 5%;
   margin-top: 5%;
   font-weight: 700;
-  text-align: center;
+  justify-content: center;
+  
+  
 
 }
 
@@ -35,3 +38,18 @@
   font-family: 'Righteous', cursive
 }
 
+
+ 
+
+.home-img{
+  width: 90%;
+  height:90%;
+
+}
+
+.home-container{
+  width:50vw;
+  height:50vh;
+  margin-left: 15%;
+  padding-left: 15%;
+}

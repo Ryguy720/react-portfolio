@@ -16,10 +16,17 @@
 
     },
     {
-        "app" :"Text Editor",
-        "description":"Simple code editor for snippets",
-        "github":"https://github.com/Ryguy720/Text-Editor",
-        "live":"https://just-another-texteditor.herokuapp.com/",
-        "screenshot":"/images/Text-Editor-screenshot.png"
+        "app" :"Password Generator",
+        "description":"Just a basic password creator.",
+        "github":"https://github.com/Ryguy720/Password-Generator",
+        "live":"https://ryguy720.github.io/Password-Generator/",
+        "screenshot":"/images/PasswordSS.png"
+    },
+    {
+        "app" :"Day-Planner",
+        "description":"Just a quick day planner.",
+        "github":"https://github.com/Ryguy720/Day-Plannernpm ",
+        "live":"https://ryguy720.github.io/Day-Planner/",
+        "screenshot":"/images/PasswordSS.png"
     }
 ]

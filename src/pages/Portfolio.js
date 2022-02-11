@@ -10,7 +10,7 @@ function Portfolio() {
     },[])
     return (
         <Container>
-    <main class="d-flex align-content-between flex-wrap justi m-5 p-5" id="portfolio">
+    <main className="d-flex align-content-between flex-wrap  m-5 p-5" id="portfolio">
         {projectlist.map((app,key) => {
             return <Project app ={app.app}
             description ={app.description}

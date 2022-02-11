@@ -11,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Home from './pages/Home';
 
 
 function App() {
@@ -58,7 +59,7 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
         <Route path="/home">
-            {/* <Navigation /> */}
+            <Home/>
           </Route>
           <Route path="/aboutme">
             <Aboutme />
