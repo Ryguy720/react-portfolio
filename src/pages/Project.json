@@ -28,5 +28,38 @@
         "github":"https://github.com/Ryguy720/Day-Plannernpm ",
         "live":"https://ryguy720.github.io/Day-Planner/",
         "screenshot":"/images/PasswordSS.png"
+    },
+    {
+        "app" :"Trip Share",
+        "description":"Group Project from bootcamp",
+        "github":"https://github.com/carlincb/TripShare",
+        "live":"https://blooming-ridge-32748.herokuapp.com/",
+        "screenshot":"/images/tripshare-image.png"
     }
+    ,
+    {
+        "app" :"Code Quiz",
+        "description":"my first homework ",
+        "github":"https://github.com/Ryguy720/new-code-quiz-challenge",
+        "live":"https://ryguy720.github.io/new-code-quiz-challenge/",
+        "screenshot":"/images/CodeQuizSS.png"
+    }
+    ,
+    {
+        "app" :"Book Search",
+        "description":"Code refactor for a book search app",
+        "github":"https://github.com/Ryguy720/Book-Search-Engine",
+        "live":"",
+        "screenshot":""
+    },
+
+    {
+        "app" :"ReadMe Generator",
+        "description":"app to creat a detailed readme",
+        "github":"https://github.com/Ryguy720/Readme-Generator",
+        "live":"",
+        "screenshot":""
+    }
+    
+    
 ]
