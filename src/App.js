@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import React from "react";
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
+import Footer from './components/Footer';
 import { Navbar, Container, Nav } from "react-bootstrap";
 import {
   BrowserRouter as Router,
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route>
+            <Footer />
           </Route>
         </Switch>
 

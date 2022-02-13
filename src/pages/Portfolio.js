@@ -2,6 +2,7 @@ import React,{useEffect, useState} from "react";
 import jsonlist from "./Project.json";
 import Project from "../components/Project.js";
 import { Container } from "react-bootstrap";
+import '../App.css';
 
 function Portfolio() {
     const [projectlist,setProjectList] = useState([])
@@ -10,7 +11,7 @@ function Portfolio() {
     },[])
     return (
         <Container>
-    <div className="d-flex align-content-between flex-wrap " id="portfolio">
+    <div className="cards text-white" id="portfolio">
         {projectlist.map((app,key) => {
             return <Project app ={app.app}
             description ={app.description}

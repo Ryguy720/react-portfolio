@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import '../App.css';
 
 const Project = (app) => {
     return (<>
         <Card style={{ width: '18rem' }}>
-            <Card.Body>
+            <Card.Body className = 'cardBody'>
                 <Card.Img variant="top" src={app.screenshot} />
                 <Card.Title>{app.app}.</Card.Title>
                 <Card.Text>
