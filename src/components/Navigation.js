@@ -12,7 +12,7 @@ const Navigation = () => {
       {/* <Container> */}
         <Navbar.Brand className = "name" href="/"><h1>Ryan McCulloch</h1></Navbar.Brand>
         <Nav className="">
-        <Link className = "text-white p-2 m-2" to="/home">Home</Link>
+          <Link className = "text-white p-2 m-2" to="/home">Home</Link>
           <Link className = "text-white p-2 m-2" to="/contact">Contact</Link>
           <Link className = "text-white p-2 m-2" to="/portfolio">Portfolio</Link>
         </Nav>

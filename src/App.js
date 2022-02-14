@@ -7,13 +7,7 @@ import React from "react";
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import { Navbar, Container, Nav } from "react-bootstrap";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
 
 
 
@@ -36,10 +30,10 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route>
+        </Switch>
+        <Route>
             <Footer />
           </Route>
-        </Switch>
 
       </Router>
     </div>);
