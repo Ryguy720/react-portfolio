@@ -1,11 +1,13 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
+
+
 
 const Footer = () => {
     return (
 
-        <div>
+        <div className = "footer">
             <Navbar className="d-flex justify-content-center" fixed="bottom" variant="dark">
                 <Navbar.Brand href="/">
                     
@@ -20,20 +22,7 @@ const Footer = () => {
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // <footer>
+       // <footer>
         //     <div class="container">
         //         <div class="row">
         //             <div class="col-lg-4 col-md-6">

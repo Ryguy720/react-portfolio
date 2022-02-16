@@ -7,7 +7,7 @@ import React from "react";
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 
 
 
@@ -32,8 +32,8 @@ function App() {
           </Route>
         </Switch>
         <Route>
-            <Footer />
-          </Route>
+          <Footer />
+        </Route>
 
       </Router>
     </div>);
