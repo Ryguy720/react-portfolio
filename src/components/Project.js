@@ -6,7 +6,7 @@ const Project = (app) => {
     return (<>
         <Card style={{ width: '18rem' }}>
             <Card.Body className = 'cardBody'>
-                <Card.Img variant="top" src={app.screenshot} />
+                <Card.Img variant="top" src={process.env.PUBLIC_URL+app.screenshot} />
                 <Card.Title>{app.app}.</Card.Title>
                 <Card.Text>
                    {app.description}

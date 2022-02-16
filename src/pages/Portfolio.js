@@ -20,7 +20,7 @@ function Portfolio() {
             screenshot={app.screenshot}
             key={key} />
         })}
-       <i class="fab-brands fab-github"></i></div>
+      </div>
        </Container>
     )
 }

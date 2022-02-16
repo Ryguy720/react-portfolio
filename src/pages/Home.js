@@ -18,7 +18,7 @@ const Home = () => {
               width={591}
               height={620}
               alt="171x180"
-              src="/images/Telluride.jpg"
+              src={process.env.PUBLIC_URL+"/images/Telluride.jpg"}
           />
       </Figure>
       <h1 className="aboutme  text-white p-2 m-2" >
